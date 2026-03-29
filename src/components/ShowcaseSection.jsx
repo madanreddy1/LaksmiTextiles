@@ -53,7 +53,7 @@ function ShowcaseSection() {
   };
 
   return (
-    <section id="products" className="showcase">
+    <section id="collection" className="showcase">
       <div className="showcase-container">
         <div className="outfit-card">
           <div className="slider-image-wrap">

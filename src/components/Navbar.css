@@ -40,3 +40,9 @@
 .nav-links a:hover {
   color: #c1121f;
 }
+
+.hero,
+.showcase,
+.contact-section {
+  scroll-margin-top: 80px;
+}

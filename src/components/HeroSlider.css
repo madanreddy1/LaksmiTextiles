@@ -1,7 +1,8 @@
 .hero {
   position: relative;
   width: 100%;
-  height: clamp(360px, 72vh, 620px);
+  min-height: 320px;
+  height: clamp(320px, 62vh, 620px);
   overflow: hidden;
   background: #e9dfd2;
 }
@@ -67,17 +68,45 @@
   letter-spacing: 1px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .hero {
     height: 52vh;
     min-height: 360px;
   }
 
+  .hero-content {
+    padding: 18px;
+  }
+
   .hero-content h1 {
-    font-size: clamp(22px, 8vw, 36px);
+    font-size: clamp(24px, 6vw, 42px);
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    height: 46vh;
+    min-height: 300px;
+  }
+
+  .hero-content {
+    padding: 16px;
+  }
+
+  .hero-sub {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(20px, 7vw, 30px);
+    max-width: 100%;
   }
 
   .hero-brand {
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.4;
   }
 }
