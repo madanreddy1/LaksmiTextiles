@@ -20,17 +20,19 @@ const outfits = [
 ];
 
 const availableItems = [
+    "Linen Fabric",,
+    "Cotton Fabric",
   "Linen Shirts",
   "Formal Shirts",
-  "Striped Shirts",
+  "Cotton Shirts",
   "Blazers",
   "Two-Piece Suits",
   "Wedding Wear",
   "Indo Western",
-  "Casual Sets",
-  "Resort Wear",
-  "Party Wear",
-  "Custom Styling",
+  "Kids Wear",
+  "Linen Trousers",
+  "Cotton Trousers",
+  "Formal Pants",
 ];
 
 function ShowcaseSection() {
